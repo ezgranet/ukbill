@@ -1,0 +1,1020 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.2)  2 DEC 2022 11:46
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**immigration-bill.tex
+(./immigration-bill.tex
+LaTeX2e <2022-11-01>
+L3 programming layer <2022-11-02> (./ukbill.cls
+Document Class: ukbill 2022-12-01 A Class for Legal Notes
+(/usr/local/texlive/2022/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count181
+)
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count182
+\c@@memmarkcntra=\count183
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\stockheight=\dimen140
+\stockwidth=\dimen141
+\trimtop=\skip50
+\trimedge=\skip51
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
+)
+\binding=\skip52
+\spinemargin=\skip53
+\foremargin=\skip54
+\uppermargin=\skip55
+\lowermargin=\skip56
+\headdrop=\skip57
+\normalrulethickness=\skip58
+\mem@maxheadheight=\skip59
+\mem@maxfootheight=\skip60
+\headwidth=\skip61
+\c@storedpagenumber=\count184
+\memPD=\dimen142
+\m@mabparskip=\skip62
+\thanksmarkwidth=\skip63
+\thanksmarksep=\skip64
+\droptitle=\skip65
+\c@book=\count185
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\beforechapskip=\skip66
+\midchapskip=\skip67
+\afterchapskip=\skip68
+\chapindent=\skip69
+\bottomsectionskip=\skip70
+\secindent=\skip71
+\beforesecskip=\skip72
+\aftersecskip=\skip73
+\subsecindent=\skip74
+\beforesubsecskip=\skip75
+\aftersubsecskip=\skip76
+\subsubsecindent=\skip77
+\beforesubsubsecskip=\skip78
+\aftersubsubsecskip=\skip79
+\paraindent=\skip80
+\beforeparaskip=\skip81
+\afterparaskip=\skip82
+\subparaindent=\skip83
+\beforesubparaskip=\skip84
+\aftersubparaskip=\skip85
+\pfbreakskip=\skip86
+\c@@ppsavesec=\count193
+\c@@ppsaveapp=\count194
+\ragrparindent=\dimen143
+\everylistparindent=\dimen144
+\parsepi=\skip87
+\topsepi=\skip88
+\itemsepi=\skip89
+\parsepii=\skip90
+\topsepii=\skip91
+\topsepiii=\skip92
+\itemsepii=\skip93
+\itemsepiii=\skip94
+\partopsepii=\skip95
+\partopsepiii=\skip96
+\m@msavetopsep=\skip97
+\m@msavepartopsep=\skip98
+\@enLab=\toks16
+\abstitleskip=\skip99
+\absleftindent=\skip100
+\abs@leftindent=\dimen145
+\absrightindent=\skip101
+\absparindent=\skip102
+\absparsep=\skip103
+\c@vslineno=\count195
+\c@poemline=\count196
+\c@modulo@vs=\count197
+\c@memfvsline=\count198
+\vleftskip=\skip104
+\vrightskip=\skip105
+\stanzaskip=\skip106
+\versewidth=\skip107
+\vgap=\skip108
+\vindent=\skip109
+\vleftmargin=\dimen146
+\c@verse=\count199
+\c@chrsinstr=\count266
+\beforepoemtitleskip=\skip110
+\afterpoemtitleskip=\skip111
+\c@poem=\count267
+\beforePoemTitleskip=\skip112
+\midPoemTitleskip=\skip113
+\afterPoemTitleskip=\skip114
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box51
+\extrarowheight=\dimen148
+\NC@list=\toks17
+\extratabsurround=\skip115
+\backup@length=\skip116
+\ar@cellbox=\box52
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen149
+\TX@old@table=\dimen150
+\TX@old@col=\dimen151
+\TX@target=\dimen152
+\TX@delta=\dimen153
+\TX@cols=\count268
+\TX@ftn=\toks18
+)
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count269
+\@cmidlb=\count270
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count271
+\@lastruleclass=\count272
+\@thisrulewidth=\dimen166
+\ctableftskip=\skip117
+\ctabrightskip=\skip118
+\abovecolumnspenalty=\count273
+\@linestogo=\count274
+\@cellstogo=\count275
+\@cellsincolumn=\count276
+\crtok=\toks19
+\@mincolumnwidth=\dimen167
+\c@newflo@tctr=\count277
+\mem@margin@floatbox=\box53
+\@contcwidth=\skip119
+\@contindw=\skip120
+\abovecaptionskip=\skip121
+\belowcaptionskip=\skip122
+\subfloattopskip=\skip123
+\subfloatcapskip=\skip124
+\subfloatcaptopadj=\skip125
+\subfloatbottomskip=\skip126
+\subfloatlabelskip=\skip127
+\subfloatcapmargin=\dimen168
+\c@@contsubnum=\count278
+\m@mscap@capbox=\box54
+\m@mscap@fbox=\box55
+\sidecapsep=\dimen169
+\sidecapwidth=\dimen170
+\m@m@tempdima=\dimen171
+\m@mscapraise=\dimen172
+\sidecapraise=\dimen173
+\m@mscapmainwidth=\dimen174
+\m@mscaplkern=\dimen175
+\beforeepigraphskip=\skip128
+\afterepigraphskip=\skip129
+\epigraphwidth=\skip130
+\epigraphrule=\skip131
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip132
+\tocbaseline=\skip133
+\cftparskip=\skip134
+\cftbeforebookskip=\skip135
+\cftbookindent=\dimen176
+\cftbooknumwidth=\dimen177
+\cftbeforepartskip=\skip136
+\cftpartindent=\skip137
+\cftpartnumwidth=\skip138
+\cftbeforechapterskip=\skip139
+\cftchapterindent=\skip140
+\cftchapternumwidth=\skip141
+\cftbeforesectionskip=\skip142
+\cftsectionindent=\skip143
+\cftsectionnumwidth=\skip144
+\cftbeforesubsectionskip=\skip145
+\cftsubsectionindent=\skip146
+\cftsubsectionnumwidth=\skip147
+\cftbeforesubsubsectionskip=\skip148
+\cftsubsubsectionindent=\skip149
+\cftsubsubsectionnumwidth=\skip150
+\cftbeforeparagraphskip=\skip151
+\cftparagraphindent=\skip152
+\cftparagraphnumwidth=\skip153
+\cftbeforesubparagraphskip=\skip154
+\cftsubparagraphindent=\skip155
+\cftsubparagraphnumwidth=\skip156
+\prechapterprecisshift=\dimen178
+\c@maxsecnumdepth=\count279
+\bibindent=\dimen179
+\bibitemsep=\skip157
+\indexcolsep=\skip158
+\indexrule=\skip159
+\indexmarkstyle=\toks20
+\@indexbox=\insert252
+\glossarycolsep=\dimen180
+\glossaryrule=\dimen181
+\sideparvshift=\skip160
+\sideins=\insert251
+\sidebartopsep=\skip161
+\sidebarhsep=\skip162
+\sidebarvsep=\skip163
+\sidebarwidth=\skip164
+\footmarkwidth=\skip165
+\footmarksep=\skip166
+\footparindent=\skip167
+\footinsdim=\skip168
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count280
+\m@m@h=\dimen182
+\m@mipn@skip=\skip169
+\sidefootins=\insert248
+\sidefootadjust=\skip170
+\sidefootheight=\skip171
+\sidefoothsep=\skip172
+\sidefootvsep=\skip173
+\sidefootwidth=\skip174
+\m@mdownsf=\skip175
+\c@sidefootnote=\count281
+\sidefootmarkwidth=\skip176
+\sidefootmarksep=\skip177
+\sidefootparindent=\skip178
+\c@pagenote=\count282
+\c@pagenoteshadow=\count283
+\mem@pn@lastkern=\skip179
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
+\tab@position=\count284
+\verbatim@in@stream=\read2
+\verbatimindent=\skip180
+\verbatim@out=\write3
+\bvboxsep=\skip181
+\c@memfbvline=\count285
+\c@bvlinectr=\count286
+\bvnumlength=\skip182
+\fb@frw=\dimen183
+\fb@frh=\dimen184
+\FrameRule=\dimen185
+\FrameSep=\dimen186
+\c@cp@cntr=\count287
+\c@ism@mctr=\count288
+\c@xsm@mctr=\count289
+\c@csm@mctr=\count290
+\c@ksm@mctr=\count291
+\c@xksm@mctr=\count292
+\c@cksm@mctr=\count293
+\c@msm@mctr=\count294
+\c@xmsm@mctr=\count295
+\c@cmsm@mctr=\count296
+\c@bsm@mctr=\count297
+\c@workm@mctr=\count298
+\c@sheetsequence=\count299
+\c@lastsheet=\count300
+\c@lastpage=\count301
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+\c@figure=\count302
+\c@lofdepth=\count303
+\cftbeforefigureskip=\skip183
+\cftfigureindent=\skip184
+\cftfigurenumwidth=\skip185
+\c@table=\count304
+\c@lotdepth=\count305
+\cftbeforetableskip=\skip186
+\cfttableindent=\skip187
+\cfttablenumwidth=\skip188
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language87
+LaTeX Info: Redefining \_ on input line 43.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip189
+\plpartopsep=\skip190
+\plitemsep=\skip191
+\plparsep=\skip192
+\pl@lab=\toks24
+)
+\c@schedcount=\count306
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+\TP@textbox=\box56
+\TP@holdbox=\box57
+\TPHorizModule=\dimen187
+\TPVertModule=\dimen188
+\TP@margin=\dimen189
+\TP@absmargin=\dimen190
+
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen191
+\TP@ox=\dimen192
+\TP@oy=\dimen193
+\TP@tbargs=\toks26
+TextBlockOrigin set to 0pt x 0pt
+)
+Grid set 8 x 9 = 64.01869pt x 93.26181pt
+TextBlockOrigin set to 15mm x 1mm
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count307
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count308
+\Gm@cntv=\count309
+\c@Gm@tempcnt=\count310
+\Gm@bindingoffset=\dimen194
+\Gm@wd@mp=\dimen195
+\Gm@odd@mp=\dimen196
+\Gm@even@mp=\dimen197
+\Gm@layoutwidth=\dimen198
+\Gm@layoutheight=\dimen199
+\Gm@layouthoffset=\dimen256
+\Gm@layoutvoffset=\dimen257
+\Gm@dimlist=\toks29
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box58
+\beforetitleunit=\skip193
+\aftertitleunit=\skip194
+\ttl@plus=\dimen258
+\ttl@minus=\dimen259
+\ttl@toksa=\toks30
+\titlewidth=\dimen260
+\titlewidthlast=\dimen261
+\titlewidthfirst=\dimen262
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-11-02 L3 programming layer (loader) 
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-10-26 L3 backend support: XeTeX
+\g__graphics_track_int=\count311
+\l__pdf_internal_box=\box59
+\g__pdf_backend_object_int=\count312
+\g__pdf_backend_annotation_int=\count313
+\g__pdf_backend_link_int=\count314
+))
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count315
+\l__fontspec_language_int=\count316
+\l__fontspec_strnum_int=\count317
+\l__fontspec_tmp_int=\count318
+\l__fontspec_tmpa_int=\count319
+\l__fontspec_tmpb_int=\count320
+\l__fontspec_tmpc_int=\count321
+\l__fontspec_em_int=\count322
+\l__fontspec_emdef_int=\count323
+\l__fontspec_strong_int=\count324
+\l__fontspec_strongdef_int=\count325
+\l__fontspec_tmpa_dim=\dimen263
+\l__fontspec_tmpb_dim=\dimen264
+\l__fontspec_tmpc_dim=\dimen265
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package fontspec Info: Font family 'PalatineP-Regular(0)' created for font
+(fontspec)             'PalatineP-Regular' with options
+(fontspec)             [Ligatures=TeX,Scale=.98,SmallCapsFeatures={LetterSpace=10,RawFeature={+smcp,},},BoldFeatures
+(fontspec)             = {SmallCapsFont=
+(fontspec)             {PalatineP-Bold},SmallCapsFeatures={RawFeature={+smcp,}}},BoldFont={PalatineP-Bold},ItalicFont={PalatineP-Italic},BoldItalicFont={PalatineP-BoldItalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-Regular/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-Regular/OT:script=latn;language=dflt;letterspace=10;+smcp;+smcp,;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-Bold/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-Bold/OT:script=latn;language=dflt;letterspace=10;+smcp,;+smcp,;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-Italic/OT:script=latn;language=dflt;letterspace=10;+smcp;+smcp,;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-BoldItalic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[.98]"PalatineP-BoldItalic/OT:script=latn;language=dflt;letterspace=10;+smcp;+smcp,;mapping=tex-text;"
+
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 11.75995pt on input line 329.
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},SmallCapsFont={Times
+(fontspec)             New Roman}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;"
+
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/11/30 3.83 The Babel package
+\babel@savecnt=\count326
+\U@D=\dimen266
+\l@unhyphenated=\language88
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/xebabel.def (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read3
+\bbl@dirlevel=\count327
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip195
+\enit@outerparindent=\dimen267
+\enit@toks=\toks31
+\enit@inbox=\box60
+\enit@count@id=\count328
+\enitdp@description=\count329
+)
+\c@alphcount=\count330
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2022-09-25 v2.30 (Daniel Flipo)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/minifp/minifp.sty
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack-based programing language.
+\MFP@loopctr=\count331
+)
+\c@DefaultLines=\count332
+\c@DefaultDepth=\count333
+\DefaultFindent=\dimen268
+\DefaultNindent=\dimen269
+\DefaultSlope=\dimen270
+\DiscardVskip=\dimen271
+
+Loading lettrine.cfg
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lettrine/lettrine.cfg)
+\L@lbox=\box61
+\L@tbox=\box62
+\c@L@lines=\count334
+\c@L@depth=\count335
+\L@Pindent=\dimen272
+\L@Findent=\dimen273
+\L@Nindent=\dimen274
+\L@lraise=\dimen275
+\L@first=\dimen276
+\L@next=\dimen277
+\L@slope=\dimen278
+\L@height=\dimen279
+\L@novskip=\dimen280
+\L@target@ht=\dimen281
+\L@target@dp=\dimen282
+\L@target@tht=\dimen283
+\LettrineWidth=\dimen284
+\LettrineHeight=\dimen285
+\LettrineDepth=\dimen286
+\Llist@everypar=\toks32
+)
+\c@schedon=\count336
+) (/Users/ezgranet/Documents/GitHub/ukbill/ukbill-ctan/ukbill/.texpadtmp/immigration-bill.aux)
+\openout1 = `immigration-bill.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 18.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(92.47145pt, 412.56497pt, 92.47145pt)
+* v-part:(T,H,B)=(92.47145pt, 660.10394pt, 92.47145pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56497pt
+* \textheight=660.10394pt
+* \oddsidemargin=20.20146pt
+* \evensidemargin=20.20146pt
+* \topmargin=-99.67233pt
+* \headheight=100.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=92.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 18.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 18.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 18.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 18.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 18.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 18.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 18.
+LaTeX Font Info:    Redeclaring math accent \check on input line 18.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 18.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 18.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 18.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 18.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 18.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/PalatineP-Regular(0)/m/n on input line 18.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 18.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/PalatineP-Regular(0)/m/n on input line 18.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/PalatineP-Regular(0)/m/n --> TU/PalatineP-Regular(0)/m/n on input line 18.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/PalatineP-Regular(0)/m/it on input line 18.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/PalatineP-Regular(0)/b/n on input line 18.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 18.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 18.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/PalatineP-Regular(0)/m/n --> TU/PalatineP-Regular(0)/b/n on input line 18.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/PalatineP-Regular(0)/b/it on input line 18.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 18.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 18.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 24.3823pt on input line 18.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/b/n' will be
+(Font)              scaled to size 24.3823pt on input line 18.
+
+Underfull \hbox (badness 1533) in paragraph at lines 18--18
+[]\TU/TimesNewRoman(0)/m/sc/12 In my view the provisions of the Commonwealth (Designated Realms) Billare
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+
+ []
+
+[1
+
+]
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 14.11192pt on input line 18.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/sc' will be
+(Font)              scaled to size 14.11192pt on input line 18.
+Unknown feature `' in font `Palatine Parliamentary Regular'.
+ (/Users/ezgranet/Documents/GitHub/ukbill/ukbill-ctan/ukbill/.texpadtmp/immigration-bill.toc
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/b/n' will be
+(Font)              scaled to size 11.75995pt on input line 3.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/b/it' will be
+(Font)              scaled to size 11.75995pt on input line 3.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/it' will be
+(Font)              scaled to size 11.75995pt on input line 3.
+
+Overfull \hbox (29.9879pt too wide) in paragraph at lines 3--3
+ [][] []  
+ []
+
+
+Overfull \hbox (29.9879pt too wide) in paragraph at lines 9--9
+ [][] []  
+ []
+
+
+Overfull \hbox (29.9879pt too wide) in paragraph at lines 14--14
+ [][] []  
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 16--16
+ [][] []\TU/PalatineP-Regular(0)/m/n/12 Evidence of citizenship (case of non-independent designated 
+ []
+
+
+Overfull \hbox (29.9879pt too wide) in paragraph at lines 20--20
+ [][] []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+ [][] []\TU/PalatineP-Regular(0)/m/n/12 Designated Realms which are 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+ [][] []\TU/PalatineP-Regular(0)/m/n/12 Designated Realms which are not 
+ []
+
+) [2
+
+]
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/sc' will be
+(Font)              scaled to size 11.75995pt on input line 18.
+Unknown feature `' in font `Palatine Parliamentary Regular'.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 18.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 23.30463pt on input line 18.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 34.36452pt on input line 18.
+Package lettrine.sty Info: Targeted height = 23.78035pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 23.78024pt (B);
+(lettrine.sty)             reported on input line 18.
+
+Underfull \hbox (badness 1681) in paragraph at lines 25--26
+[]\TU/PalatineP-Regular(0)/m/n/12 ‘public authority’ has the same meaning as under the
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 32--33
+[]\TU/PalatineP-Regular(0)/m/n/12 In this Act, the term ‘non-designated Realm’ refers to an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+\TU/PalatineP-Regular(0)/m/n/12 independent sovereign State recognised by His Majesty’s
+ []
+
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/it' will be
+(Font)              scaled to size 9.79996pt on input line 44.
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]\TU/PalatineP-Regular(0)/m/n/12 in the legal system of the non-independent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\TU/PalatineP-Regular(0)/m/n/12 sub-division, territory, dependency, or associated
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 65--66
+\TU/PalatineP-Regular(0)/m/n/12 States, individuals, who, under the respective law of
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 65--66
+\TU/PalatineP-Regular(0)/m/n/12 a designated Realm, possesses the citizenship of said
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 67--68
+[]\TU/PalatineP-Regular(0)/m/n/12 The preceding provision does not apply in cases
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+\TU/PalatineP-Regular(0)/m/n/12 where an individual holds the citizenship of a
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 67--68
+\TU/PalatineP-Regular(0)/m/n/12 designated Realm aquired primarily as the result
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 67--68
+\TU/PalatineP-Regular(0)/m/n/12 of investment or investments, payment, or other
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 67--68
+\TU/PalatineP-Regular(0)/m/n/12 contribution to aquire citizenship), as opposed to
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 67--68
+\TU/PalatineP-Regular(0)/m/n/12 least four years of a continguous five year period
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 67--68
+\TU/PalatineP-Regular(0)/m/n/12 physically present in the sovereign territory of the
+ []
+
+
+Underfull \vbox (badness 6300) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 5203) in paragraph at lines 69--70
+[]\TU/PalatineP-Regular(0)/m/n/12 with regards to to designated realms which are not
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 72--73
+[]\TU/PalatineP-Regular(0)/m/n/12 have not aquired such citizenship primarily as the
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 72--73
+\TU/PalatineP-Regular(0)/m/n/12 pecuniary considerations, as opposed to residence,
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 72--73
+\TU/PalatineP-Regular(0)/m/n/12 years of a continguous five year period physically
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 82--83
+[]\TU/PalatineP-Regular(0)/m/n/12 Schedule 1 of this Act shall be referred to as the Register of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[]\TU/PalatineP-Regular(0)/m/n/12 With regards to designated Realms which are not
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 85--86
+\TU/PalatineP-Regular(0)/m/n/12 independent States, the Register also records the status
+ []
+
+[3]
+Underfull \hbox (badness 1009) in paragraph at lines 90--91
+\TU/PalatineP-Regular(0)/m/n/12 vary the date at which delisting takes effect by further
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 96--97
+\TU/PalatineP-Regular(0)/m/n/12 in the domestic legal and constitutional arrangements of a
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 96--97
+\TU/PalatineP-Regular(0)/m/n/12 that the Secretary of State now considers that the qualifying
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 96--97
+\TU/PalatineP-Regular(0)/m/n/12 permanent status of affiliation listed in the Register requires
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 2564) in paragraph at lines 100--101
+\TU/PalatineP-Regular(0)/m/n/12 amenability or unamenability (as the case may be) to
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 115--116
+\TU/PalatineP-Regular(0)/m/n/12 in existing legislation to citizens of Ireland shall be generally
+ []
+
+[5]
+Underfull \hbox (badness 2253) in paragraph at lines 117--118
+\TU/PalatineP-Regular(0)/m/n/12 of treatment of the citizens of Ireland and the rights,
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 124--125
+\TU/PalatineP-Regular(0)/m/n/12 prior to the coming into force of this Act, and, following the
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 124--125
+\TU/PalatineP-Regular(0)/m/n/12 commencement of this act, a public authority may continue
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 125--126
+[]\TU/PalatineP-Regular(0)/m/n/12 Notwithstanding anything else in this Act, the following shall
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 125--126
+\TU/PalatineP-Regular(0)/m/n/12 continue to remain valid, legal, executable, and enforceable
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]\TU/PalatineP-Regular(0)/m/n/12 The preceding provision applies only to those
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 131--131
+\TU/PalatineP-Regular(0)/m/n/12 administrative measures and policies which name
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 4543) in paragraph at lines 159--160
+\TU/PalatineP-Regular(0)/m/n/12 as national identity cards, issued by an independent
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 161--162
+\TU/PalatineP-Regular(0)/m/n/12 of State shall issued detailed guidance for public
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 161--162
+\TU/PalatineP-Regular(0)/m/n/12 authorities and private actors on how to recognise
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]\TU/PalatineP-Regular(0)/m/n/12 Subsection one of this section shall apply to citizens of
+ []
+
+[8]
+Underfull \hbox (badness 2961) in paragraph at lines 170--171
+[]\TU/PalatineP-Regular(0)/m/n/12 The Secretary of State may, by way of statutory instrument,
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 176--177
+\TU/PalatineP-Regular(0)/m/n/12 Realms which are known to to sell or grant citizenship in
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 183--184
+[]\TU/PalatineP-Regular(0)/m/n/12 Any individual unable to provide such evidence shall not be
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 184--185
+\TU/PalatineP-Regular(0)/m/n/12 made under the preceeding provisions which are untrue are
+ []
+
+[9]
+Underfull \hbox (badness 1527) in paragraph at lines 189--190
+\TU/PalatineP-Regular(0)/m/n/12 engaged in deception towards a public authority or private person
+ []
+
+[10]
+Underfull \hbox (badness 4266) in paragraph at lines 239--240
+[]\TU/PalatineP-Regular(0)/m/n/12 For the above polity, the following statuses or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+[]\TU/PalatineP-Regular(0)/m/n/12 Birth in Niue (both for Niueans and
+ []
+
+[11
+
+] [12]
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 7.83997pt on input line 251.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/n' will be
+(Font)              scaled to size 5.87997pt on input line 251.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 251.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 251.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 251.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 10.0pt on input line 251.
+LaTeX Font Info:    Font shape `TU/PalatineP-Regular(0)/m/sc' will be
+(Font)              scaled to size 9.79996pt on input line 251.
+Unknown feature `' in font `Palatine Parliamentary Regular'.
+ [1
+
+]
+\tf@toc=\write4
+\openout4 = `immigration-bill.toc'.
+
+ (/Users/ezgranet/Documents/GitHub/ukbill/ukbill-ctan/ukbill/.texpadtmp/immigration-bill.aux) ) 
+Here is how much of TeX's memory you used:
+ 10271 strings out of 475644
+ 211390 string characters out of 5796303
+ 662610 words of memory out of 5000000
+ 31460 multiletter control sequences out of 15000+600000
+ 472282 words of font info for 70 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 87i,13n,104p,743b,808s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on /Users/ezgranet/Documents/GitHub/ukbill/ukbill-ctan/ukbill/.texpadtmp/immigration-bill.pdf (15 pages).
