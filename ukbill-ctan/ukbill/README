@@ -2,7 +2,7 @@ ukbill - easily typeset UK legislation
 
 version: 1.0.0
 
-This package provides formatting to easily typeset draft UK legislation. The libre font Palatine Parliamentary is required to use this package: https://github.com/ezgranet/palatine-parliamentary
+This package provides formatting to easily typeset draft UK legislation. The libre font Palatine Parliamentary is required to use this class: https://github.com/ezgranet/palatine-parliamentary
 
 This work may be distributed and/or modified under the conditions of the
 LaTeX Project Public License (LPPL), version 1.3c or later. 
@@ -12,4 +12,5 @@ For suggestions, feature requests, and bug reports, please use the project's
 GitHub site:  https://github.com/ezgranet/ukbill
 
 Version history: 
+12/12/2022: v 1.0.1 fixed errors in sample bill—no substantive changes to package
 1/12/2022: package creation

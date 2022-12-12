@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\def\ukbillversionnumber{1.0.0}
+\def\ukbillversionnumber{1.0.1}
 \ProvidesClass{ukbill}[2022-12-01 A Class for Legal Notes]
   % !TeX program = lualatex                                   
 % !TeX encoding = utf8
