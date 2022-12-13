@@ -353,7 +353,7 @@ BoldFont={PalatineP-Bold},
 }%
 \item[]}%
 {\end{list}}
-\newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=1.25cm,labelindent=5pt,itemindent=-15pt,label=]}{\end{enumerate}}
+\newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=1.25cm,labelindent=5pt,itemindent=0pt,label=]}{\end{enumerate}}
 \newenvironment{numstat}%
 {%
 %\vspace{-9ex}%

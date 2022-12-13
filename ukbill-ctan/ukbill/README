@@ -12,5 +12,7 @@ For suggestions, feature requests, and bug reports, please use the project's
 GitHub site:  https://github.com/ezgranet/ukbill
 
 Version history: 
+13/12/2022: v 1.0.2 fixed indent with nostat environment
+
 12/12/2022: v 1.0.1 fixed errors in sample bill—no substantive changes to package
 1/12/2022: package creation

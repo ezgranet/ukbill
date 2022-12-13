@@ -25,7 +25,7 @@ ItalicFont={Palatine Parliamentary Italic}]{Palatine Parliamentary Regular}
 \newcommand{\thebox}{{\boxy ▯}}
 %\usepackage[firstnumber=last]{fancyvrb}
 \usepackage{minted}
-\date{\today\\\smallskip\ttfamily Version 1.0.1}
+\date{\today\\\smallskip\ttfamily Version 1.0.2}
 \author{Elijah Z Granet\thanks{e-mail: \href{mailto:ezg21@cantab.ac.uk}{\ttfamily ezg21@cantab.ac.uk}}}
 
 \title{\texttt{ukbill}:\\A package for typesetting UK legislation}
@@ -143,7 +143,9 @@ Private bills have a different enacting formula and also make use of recitals. D
 	\section{Licence}
 	This project is licensed under the Latex Public Project Licence version 1.3\textit{c}. This documentation is copyright of the author but licensed under CC-BY-SA 4.0. 
 	\section{Version History}
-	\subsection{\normalfont\texttt{1.0.1}}
+		\subsection{\normalfont\texttt{1.0.2}}
+\ttfamily 13 December 2022: fixed an error with indent in the `nostat' environment
+\subsection{\normalfont\texttt{1.0.1}}
 \ttfamily 12 December 2022: Fixes to example documentation
 
 \subsection{\normalfont\texttt{1.0.0}}
@@ -164,7 +166,7 @@ firstnumber=last
 ]
 {latex}
 \NeedsTeXFormat{LaTeX2e}
-\def\ukbillversionnumber{1.0.0}
+\def\ukbillversionnumber{1.0.2}
 \ProvidesClass{ukbill}[2022-12-01 A Class for Legal Notes]
   % !TeX program = lualatex                                   
 % !TeX encoding = utf8
@@ -521,7 +523,7 @@ BoldFont={PalatineP-Bold},
 \item[]}%
 {\end{list}}
 \newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=1.25cm,%
-labelindent=5pt,itemindent=-15pt,label=]}{\end{enumerate}}
+labelindent=5pt,itemindent=0,label=]}{\end{enumerate}}
 \newenvironment{numstat}%
 {%
 %\vspace{-9ex}%
