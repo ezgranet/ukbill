@@ -1,6 +1,6 @@
 ukbill - easily typeset UK legislation
 
-version: 1.0.0
+version: 1.0.2
 
 This package provides formatting to easily typeset draft UK legislation. The libre font Palatine Parliamentary is required to use this class: https://github.com/ezgranet/palatine-parliamentary
 

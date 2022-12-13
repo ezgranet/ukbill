@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
-\def\ukbillversionnumber{1.0.1}
-\ProvidesClass{ukbill}[2022-12-01 A Class for Legal Notes]
+\def\ukbillversionnumber{1.0.2}
+\ProvidesClass{ukbill}[2022-12-13 A Class for Legal Notes]
   % !TeX program = lualatex                                   
 % !TeX encoding = utf8
 % This work may be distributed and/or modified under the 
@@ -353,8 +353,7 @@ BoldFont={PalatineP-Bold},
 }%
 \item[]}%
 {\end{list}}
-\newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=1.25cm,labelindent=5pt,itemindent=0pt,label=]}{\end{enumerate}}
-\newenvironment{numstat}%
+\renewenvironment{nostat}{\begin{enumerate}[leftmargin=1.7cm,labelindent=15pt,itemindent=0pt,label=]}{\end{enumerate}}
 {%
 %\vspace{-9ex}%
 \begin{enumerate}[nosep,partopsep=0pt,
