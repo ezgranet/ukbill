@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
-\def\ukbillversionnumber{1.0.2}
-\ProvidesClass{ukbill}[2022-12-13 A Class for Legal Notes]
+\def\ukbillversionnumber{1.2.0}
+\ProvidesClass{ukbill}[2024-01-06 A Class for UK legislation]
   % !TeX program = lualatex                                   
 % !TeX encoding = utf8
 % This work may be distributed and/or modified under the 
@@ -31,6 +31,41 @@
 \end{center}
 \addcontentsline{toc}{chapter}{\rule{.45\textwidth}{1pt}}
 }
+%\RequirePackage{datetime2}
+%\DTMlangsetup[en-GB]{ord=omit}
+\ExplSyntaxOn
+
+\NewExpandableDocumentCommand{\addordinal}{m}
+ {% #1 should be something that TeX interprets as an integer
+  \int_to_arabic:n { #1 }
+  \exp_args:Ne \ORDINAL { \deman_compute_suffix:n { #1 } }
+ }
+
+\NewDocumentCommand{\ORDINAL}{m}{\textsuperscript{\itshape #1}}% how ugly is it?
+
+\cs_new:Nn \deman_compute_suffix:n
+ {
+  \int_case:nnF { #1 }
+   {% special cases
+    {11}{th}
+    {12}{th}
+    {13}{th}
+   }
+   { \__deman_compute_suffix_normal:n { #1 } }
+ }
+
+\cs_new:Nn \__deman_compute_suffix_normal:n
+ {
+  \int_case:nnF { \int_mod:nn { #1 } { 10 } }
+   {
+    {1}{st}
+    {2}{nd}
+    {3}{rd}
+   }
+   {th}
+ }
+\ExplSyntaxOff
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,11 +85,23 @@
 \newcommand{\whereas}[1]{\def\@whereas{#1}}
 \newcommand{\printwhereas}{\@whereas}
 
+%\newcommand{\billto}[1]{\def\@billto{#1}}
+
+
 \newcommand{\publishedby}[1]{\def\@publishedby{#1}}
 \newcommand{\printpublishedby}{\@publishedby}
 \def\@publishedby{\@latex@warning@no@line{No \noexpand\publishedby given}}
 \newcommand{\billtitle}[1]{\def\@billtitle{#1}}
 \newcommand{\printbilltitle}{\@billtitle}
+\newcommand{\billday}[1]{\def\@billday{#1}}
+\newcommand{\printbillday}{\@billday}
+\def\@billday{\@latex@warning@no@line{No \noexpand\billday given}}
+\newcommand{\billmonth}[1]{\def\@billmonth{#1}}
+\newcommand{\printbillmonth}{\@billmonth}
+\def\@billmonth{\@latex@warning@no@line{No \noexpand\billmonth given}}
+\newcommand{\billyear}[1]{\def\@billyear{#1}}
+\newcommand{\printbillyear}{\@billyear}
+\def\@billyear{\@latex@warning@no@line{No \noexpand\billyear given}}
 \def\@billtitle{\@latex@warning@no@line{No \noexpand\billtitle given}}
 \newcommand{\humanrights}[1]{\def\@humanrights{#1}}
 \newcommand{\printhumanrights}{\@humanrights}
@@ -327,7 +374,6 @@ BoldFont={PalatineP-Bold},
  ItalicFont={PalatineP-Italic},
  BoldItalicFont={PalatineP-BoldItalic}]{PalatineP-Regular}
 \newfontface{\extfont}[SmallCapsFont={Times New Roman}]{Times New Roman}}{\ClassWarning{Please install the Palatine Parliamentary Font}}
-
 \RequirePackage[english]{babel}
 %\RequirePackage{csquotes}
 %\MakeOuterQuote{"}
@@ -353,7 +399,8 @@ BoldFont={PalatineP-Bold},
 }%
 \item[]}%
 {\end{list}}
-\renewenvironment{nostat}{\begin{enumerate}[leftmargin=1.7cm,labelindent=15pt,itemindent=0pt,label=]}{\end{enumerate}}
+\newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=1.7cm,labelindent=0pt,itemindent=0pt,label=]}{\end{enumerate}}
+\newenvironment{numstat}%
 {%
 %\vspace{-9ex}%
 \begin{enumerate}[nosep,partopsep=0pt,
@@ -576,8 +623,7 @@ the authority of the same, as follows:―
 	\vskip 3ex
 	\end{center}
 	
-\normalsize To make provision in connection with the citizens of certain Commonwealth Realms
-	
+\normalsize \printbillto
 	\vskip 3ex
 	\begin{center}
 	
@@ -589,7 +635,7 @@ the authority of the same, as follows:―
 \vspace{1ex}
 
 \begin{minipage}{.4\textwidth}\centering
-\itshape Ordered, by\normalfont\ \printdrafter\itshape\ to be Printed, \normalfont 19\itshape th March \normalfont 2020\itshape.
+\itshape Ordered, by\normalfont\ \printdrafter\itshape\ to be Printed, {\normalfont\addordinal{\printbillday}} \textit{\printbillmonth} \printbillyear.
 \end{minipage}
 
 \vspace{1ex} 

@@ -25,7 +25,7 @@ ItalicFont={Palatine Parliamentary Italic}]{Palatine Parliamentary Regular}
 \newcommand{\thebox}{{\boxy ▯}}
 %\usepackage[firstnumber=last]{fancyvrb}
 \usepackage{minted}
-\date{\today\\\smallskip\ttfamily Version 1.0.2}
+\date{\today\\\smallskip\ttfamily Version 1.2.0}
 \author{Elijah Z Granet\thanks{e-mail: \href{mailto:ezg21@cantab.ac.uk}{\ttfamily ezg21@cantab.ac.uk}}}
 
 \title{\texttt{ukbill}:\\A package for typesetting UK legislation}
@@ -143,7 +143,9 @@ Private bills have a different enacting formula and also make use of recitals. D
 	\section{Licence}
 	This project is licensed under the Latex Public Project Licence version 1.3\textit{c}. This documentation is copyright of the author but licensed under CC-BY-SA 4.0. 
 	\section{Version History}
-		\subsection{\normalfont\texttt{1.0.2}}
+				\subsection{\normalfont\texttt{1.0.2}}
+\ttfamily 13 December 2022: fixed an error with changes made in 1.0.2
+\subsection{\normalfont\texttt{1.0.2}}
 \ttfamily 13 December 2022: fixed an error with indent in the `nostat' environment
 \subsection{\normalfont\texttt{1.0.1}}
 \ttfamily 12 December 2022: Fixes to example documentation
@@ -166,8 +168,8 @@ firstnumber=last
 ]
 {latex}
 \NeedsTeXFormat{LaTeX2e}
-\def\ukbillversionnumber{1.0.2}
-\ProvidesClass{ukbill}[2022-12-01 A Class for Legal Notes]
+\def\ukbillversionnumber{1.2.0}
+\ProvidesClass{ukbill}[2024-01-06 A Class for UK legislation]
   % !TeX program = lualatex                                   
 % !TeX encoding = utf8
 % This work may be distributed and/or modified under the 
@@ -198,6 +200,41 @@ firstnumber=last
 \end{center}
 \addcontentsline{toc}{chapter}{\rule{.45\textwidth}{1pt}}
 }
+%\RequirePackage{datetime2}
+%\DTMlangsetup[en-GB]{ord=omit}
+\ExplSyntaxOn
+
+\NewExpandableDocumentCommand{\addordinal}{m}
+ {% #1 should be something that TeX interprets as an integer
+  \int_to_arabic:n { #1 }
+  \exp_args:Ne \ORDINAL { \deman_compute_suffix:n { #1 } }
+ }
+
+\NewDocumentCommand{\ORDINAL}{m}{\textsuperscript{\itshape #1}}% how ugly is it?
+
+\cs_new:Nn \deman_compute_suffix:n
+ {
+  \int_case:nnF { #1 }
+   {% special cases
+    {11}{th}
+    {12}{th}
+    {13}{th}
+   }
+   { \__deman_compute_suffix_normal:n { #1 } }
+ }
+
+\cs_new:Nn \__deman_compute_suffix_normal:n
+ {
+  \int_case:nnF { \int_mod:nn { #1 } { 10 } }
+   {
+    {1}{st}
+    {2}{nd}
+    {3}{rd}
+   }
+   {th}
+ }
+\ExplSyntaxOff
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,11 +254,23 @@ firstnumber=last
 \newcommand{\whereas}[1]{\def\@whereas{#1}}
 \newcommand{\printwhereas}{\@whereas}
 
+%\newcommand{\billto}[1]{\def\@billto{#1}}
+
+
 \newcommand{\publishedby}[1]{\def\@publishedby{#1}}
 \newcommand{\printpublishedby}{\@publishedby}
 \def\@publishedby{\@latex@warning@no@line{No \noexpand\publishedby given}}
 \newcommand{\billtitle}[1]{\def\@billtitle{#1}}
 \newcommand{\printbilltitle}{\@billtitle}
+\newcommand{\billday}[1]{\def\@billday{#1}}
+\newcommand{\printbillday}{\@billday}
+\def\@billday{\@latex@warning@no@line{No \noexpand\billday given}}
+\newcommand{\billmonth}[1]{\def\@billmonth{#1}}
+\newcommand{\printbillmonth}{\@billmonth}
+\def\@billmonth{\@latex@warning@no@line{No \noexpand\billmonth given}}
+\newcommand{\billyear}[1]{\def\@billyear{#1}}
+\newcommand{\printbillyear}{\@billyear}
+\def\@billyear{\@latex@warning@no@line{No \noexpand\billyear given}}
 \def\@billtitle{\@latex@warning@no@line{No \noexpand\billtitle given}}
 \newcommand{\humanrights}[1]{\def\@humanrights{#1}}
 \newcommand{\printhumanrights}{\@humanrights}
@@ -416,16 +465,14 @@ firstnumber=last
 \begin{center}
 \printpartname\hspace{1ex}\arabic{part}\\
 \printparttitle{#1}\normalfont\normalsize\\\end{center}
-\addcontentsline{toc}{part}{\normalsize\bfseries\printpartname\hspace{1ex}%
-\arabic{part}\normalfont\\
+\addcontentsline{toc}{part}{\normalsize\bfseries\printpartname\hspace{1ex}\arabic{part}\normalfont\\
 \centerline{\normalsize\normalfont\scshape\printparttitle{#1}}}
 }
   \renewcommand\contentsname{CONTENTS}%
 
 \renewcommand{\chapter}[1]{\stepcounter{chapter}\markright{#1}
 \begin{center}
-\itshape\printchaptertitle{#1}\normalfont\normalsize\\%
-\end{center}
+\itshape\printchaptertitle{#1}\normalfont\normalsize\\\end{center}
 \addcontentsline{toc}{chapter}{\normalsize\itshape
 \centerline{\normalsize\normalfont\itshape\printchaptertitle{#1}}}
 }
@@ -496,7 +543,6 @@ BoldFont={PalatineP-Bold},
  ItalicFont={PalatineP-Italic},
  BoldItalicFont={PalatineP-BoldItalic}]{PalatineP-Regular}
 \newfontface{\extfont}[SmallCapsFont={Times New Roman}]{Times New Roman}}{\ClassWarning{Please install the Palatine Parliamentary Font}}
-
 \RequirePackage[english]{babel}
 %\RequirePackage{csquotes}
 %\MakeOuterQuote{"}
@@ -522,8 +568,7 @@ BoldFont={PalatineP-Bold},
 }%
 \item[]}%
 {\end{list}}
-\newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=1.25cm,%
-labelindent=5pt,itemindent=0,label=]}{\end{enumerate}}
+\newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=1.7cm,labelindent=0pt,itemindent=0pt,label=]}{\end{enumerate}}
 \newenvironment{numstat}%
 {%
 %\vspace{-9ex}%
@@ -566,8 +611,7 @@ leftmargin=0em,rightmargin=0em,label=]%
 \newenvironment{alphstat}%
 {%
 \vspace{-3ex}%
-\begin{enumerate}[leftmargin=7.5ex,topsep=0ex,partopsep=1ex,parsep=0.5ex,%
-itemsep=0ex,labelsep=3ex,label=({\alph*})]%
+\begin{enumerate}[leftmargin=7.5ex,topsep=0ex,partopsep=1ex,parsep=0.5ex,itemsep=0ex,labelsep=3ex,label=({\alph*})]%
 
 \item[]}%
 {\end{enumerate}%
@@ -575,8 +619,7 @@ itemsep=0ex,labelsep=3ex,label=({\alph*})]%
 \newenvironment{romstat}%
 {%
 \vspace{-3ex}%
-\begin{enumerate}[topsep=0ex,partopsep=1ex,parsep=0.5ex,itemsep=0ex,%
-label=(\roman*)]%
+\begin{enumerate}[topsep=0ex,partopsep=1ex,parsep=0.5ex,itemsep=0ex,label=(\roman*)]%
 
 \item[]}%
 {\end{enumerate}%
@@ -584,8 +627,7 @@ label=(\roman*)]%
 \newenvironment{twoalphstat}%
 {%
 \vspace{-3ex}%
-\begin{enumerate}[leftmargin=7.5ex,topsep=0ex,partopsep=1ex,parsep=0.5ex,%
-itemsep=0ex,labelsep=3ex,label=({\alph*}{\alph*})]%
+\begin{enumerate}[leftmargin=7.5ex,topsep=0ex,partopsep=1ex,parsep=0.5ex,itemsep=0ex,labelsep=3ex,label=({\alph*}{\alph*})]%
 
 \item[]}%
 {\end{enumerate}%
@@ -626,13 +668,11 @@ itemsep=0ex,labelsep=3ex,label=({\alph*}{\alph*})]%
 
 \newcommand{\currentsubsection}{}
 \let\oldsubsection\subsection
-\renewcommand{\subsection}[1]{\oldsubsection{#1}\renewcommand{%
-\currentsubsection}{#1}}
+\renewcommand{\subsection}[1]{\oldsubsection{#1}\renewcommand{\currentsubsection}{#1}}
 
 \newcommand{\currentsubsubsection}{}
 \let\oldsubsubsection\subsubsection
-\renewcommand{\subsubsection}[1]{\oldsubsubsection{#1}\renewcommand{%
-\currentsubsubsection}{#1}}
+\renewcommand{\subsubsection}[1]{\oldsubsubsection{#1}\renewcommand{\currentsubsubsection}{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % enacting
@@ -752,8 +792,7 @@ the authority of the same, as follows:―
 	\vskip 3ex
 	\end{center}
 	
-\normalsize To make provision in connection with the citizens of certain Commonwealth Realms
-	
+\normalsize \printbillto
 	\vskip 3ex
 	\begin{center}
 	
@@ -765,7 +804,7 @@ the authority of the same, as follows:―
 \vspace{1ex}
 
 \begin{minipage}{.4\textwidth}\centering
-\itshape Ordered, by\normalfont\ \printdrafter\itshape\ to be Printed, \normalfont 19\itshape th March \normalfont 2020\itshape.
+\itshape Ordered, by\normalfont\ \printdrafter\itshape\ to be Printed, {\normalfont\addordinal{\printbillday}} \textit{\printbillmonth} \printbillyear.
 \end{minipage}
 
 \vspace{1ex} 
